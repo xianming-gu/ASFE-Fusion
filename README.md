@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ASFE-Fusion
 Codes for ***Adaptive spatial and frequency experts fusion network for medical image fusion. (Biomedical Signal Processing and Control 2024)***
 
