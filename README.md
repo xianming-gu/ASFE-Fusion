@@ -99,6 +99,3 @@ and the results is available in ``'./result/'``.
 <img src="image//PET_results.jpg" width="90%" align=center />
 
 <img src="image//SPECT_results.jpg" width="90%" align=center />
-=======
-# ASFE-Fusion
->>>>>>> 7a70ef020a9e9ecdfc6a20a156c8c8ebb98ac16d
