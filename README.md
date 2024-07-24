@@ -11,7 +11,7 @@ Diagnosis of Guizhou Province, State Key Laboratory of Public Big Data, College 
 <sup>*</sup> Corresponding author.
 
 -[*[Paper]*](https://www.sciencedirect.com/science/article/abs/pii/S1746809424005366#/)  
--*[Email]*: [xianming_gu@foxmail.com](mailto:xianming_gu@foxmail.com) (X. Gu), [lhwang2@gzu.edu.cn](mailto:lhwang2@gzu.edu.cn) (L. Wang)
+-*[Email]*: [xianming_gu@foxmail.com](mailto:xianming_gu@foxmail.com) (X. Gu)
 
 
 
