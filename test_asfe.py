@@ -40,7 +40,7 @@ def Mytest(model_test=None, img_save_dir=None):
     test_loader = data.DataLoader(test_set, batch_size=1, shuffle=False,
                                   num_workers=1, pin_memory=False)
     with torch.no_grad():
-        if 'CT' in args.task:
+        if 'CT' in args.task and 'SPECT' not in args.task:
             for batch, [img_name, img1, img2] in enumerate(test_loader):  # CT-MRI Fusion
                 print("test for image %s" % img_name[0])
                 img1 = img1.to(DEVICE)
