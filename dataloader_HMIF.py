@@ -27,7 +27,7 @@ class TrainData(data.Dataset):
     def __getitem__(self, index):
         self.img1_dir.sort()
         self.img2_dir.sort()
-        if 'CT' in args.task:
+        if 'CT' in args.task and 'SPECT' not in args.task:
             img_type1 = args.task.split('-')[0] + '/'
             img1 = cv2.imread(self.dir_prefix + img_type1 + self.img1_dir[index], cv2.IMREAD_GRAYSCALE)
         else:
@@ -71,7 +71,7 @@ class TestData(data.Dataset):
         self.img1_dir.sort()
         self.img2_dir.sort()
         img_name = str(self.img1_dir[index])
-        if 'CT' in args.task:
+        if 'CT' in args.task and 'SPECT' not in args.task:
             img_type1 = args.task.split('-')[0] + '/'
             img1 = cv2.imread(self.dir_prefix + img_type1 + self.img1_dir[index], cv2.IMREAD_GRAYSCALE)
             img2 = cv2.imread(self.dir_prefix + 'MRI/' + self.img2_dir[index], cv2.IMREAD_GRAYSCALE)
